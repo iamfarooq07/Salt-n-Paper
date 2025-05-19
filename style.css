@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    background-color: black;
+    color: white;
+}
+.navbar img{
+    margin-left: 70px;
+}
+.link{
+    margin-left: 30rem;
+}
+
+.link a {
+    color: white;
+    font-size: 17px;
+}
+.link a:hover{
+    color: white;
+
+}
+
+.btn {
+    margin-right: 50px;
+    border: 1px solid white;
+
+}
+
+.btn .round {
+    color: white;
+    border: 1px solid white;
+    margin: 0 15px;
+    border-radius: 50px;
+}
+.btn .round:hover{
+    color: white;
+}
+
+.btn .null {
+    color: white;
+    border: none;
+    background-color: red;
+    height: 5vh;
+    width: 10vw;
+    border-radius: 50px;
+}
+.btn .null:hover{
+    color: white;
+}
+
+.btn .null i {
+    background-color: red;
+}
