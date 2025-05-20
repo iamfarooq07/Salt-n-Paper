@@ -3,13 +3,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins";
-    background-color: black;
-    color: white;
 }
-.navbar img{
+
+html body {
+    color: white;
+    background-color: black;
+}
+
+.navbar img {
     margin-left: 70px;
 }
-.link{
+
+.link {
     margin-left: 30rem;
 }
 
@@ -17,7 +22,8 @@
     color: white;
     font-size: 17px;
 }
-.link a:hover{
+
+.link a:hover {
     color: white;
 
 }
@@ -34,7 +40,8 @@
     margin: 0 15px;
     border-radius: 50px;
 }
-.btn .round:hover{
+
+.btn .round:hover {
     color: white;
 }
 
@@ -46,10 +53,188 @@
     width: 10vw;
     border-radius: 50px;
 }
-.btn .null:hover{
+
+.btn .null:hover {
     color: white;
 }
 
 .btn .null i {
     background-color: red;
+}
+
+/* Slider */
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.heading {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+/* card */
+
+.images {
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    ;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.images img {
+    margin-right: 30px;
+}
+
+.btn {
+    position: relative;
+}
+
+.btn .round-1 {
+    position: absolute;
+    width: 8rem;
+    left: 9rem;
+    color: white;
+    border: 1px solid rgb(199, 199, 199);
+    margin: 0 15px;
+    border-radius: 50px;
+}
+
+.btn .round-1:hover {
+    color: white;
+}
+
+.btn .round-2 {
+    position: absolute;
+    width: 8rem;
+    left: 30.5rem;
+    color: white;
+    border: 1px solid rgb(199, 199, 199);
+    margin: 0 15px;
+    border-radius: 50px;
+}
+
+.btn .round-2:hover {
+    color: white;
+}
+
+.btn .round-3 {
+    position: absolute;
+    width: 8rem;
+    left: 52rem;
+    color: white;
+    border: 1px solid rgb(199, 199, 199);
+    margin: 0 15px;
+    border-radius: 50px;
+}
+
+.btn .round-3:hover {
+    color: white;
+}
+
+.btn .round-4 {
+    position: absolute;
+    width: 8rem;
+    left: 73.5rem;
+    color: white;
+    border: 1px solid rgb(199, 199, 199);
+    margin: 0 15px;
+    border-radius: 50px;
+}
+
+.btn .round-4:hover {
+    color: white;
+}
+
+/* card */
+
+.hero {
+    position: relative;
+    width: 98vw;
+    background-color: #0f0f0f;
+    height: 80rem;
+    padding: 10px;
+    margin-top: 7rem;
+}
+
+.snp-right-side-one {
+    position: absolute;
+    right: 60px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.cat img {
+    width: 650px;
+    height: 100%;
+}
+
+.record {
+    /* border: 1px solid white; */
+    margin-bottom: 4rem;
+}
+
+.record h2 {
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.record h1 {
+    margin: 20px 0;
+}
+
+.record p i {
+    color: #a7a7a7;
+    margin: 5px 0;
+}
+
+.record-center {
+    right:50px;
+    margin-bottom: 4rem;
+    /* border: 1px solid white; */
+    margin-right: 15rem;   
+}
+.record-center h2 {
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.record-center h1 {
+    margin: 20px 0;
+}
+
+.record-center p i {
+    color: #a7a7a7;
+    margin: 5px 0;
+}
+
+.Get {
+    margin-top: 2rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid #a7a7a7;
+    font-size: 13px;
+}
+
+.Get i {
+    max-height: 2rem;
+    width: 1rem;
+    font-size: 16px;
+    color: red;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 10px;
 }
