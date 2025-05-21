@@ -54,6 +54,7 @@ html body {
     border-radius: 50px;
 }
 
+
 .btn .null:hover {
     color: white;
 }
@@ -150,13 +151,22 @@ html body {
     color: white;
 }
 
+span {
+    font-size: 60px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 /* card */
 
 .hero {
     position: relative;
     width: 98vw;
     background-color: #0f0f0f;
-    height: 80rem;
+    height: 100rem;
     padding: 10px;
     margin-top: 7rem;
 }
@@ -198,11 +208,12 @@ html body {
 }
 
 .record-center {
-    right:50px;
+    right: 50px;
     margin-bottom: 4rem;
     /* border: 1px solid white; */
-    margin-right: 15rem;   
+    margin-right: 15rem;
 }
+
 .record-center h2 {
     font-weight: 150;
     letter-spacing: 5px;
@@ -230,11 +241,356 @@ html body {
 }
 
 .Get i {
-    max-height: 2rem;
-    width: 1rem;
-    font-size: 16px;
+    background-color: white;
     color: red;
-    background-color: #fff;
     border-radius: 50%;
-    margin: 10px;
+    padding: 8px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+
+/* contact */
+
+.contact {
+    position: relative;
+    
+}
+
+.snp-left-one-side img {
+    width: 98vw;
+    height: 140rem;
+    padding: 30px;
+    margin-top: 7rem;
+}
+
+.cool {
+    position: absolute;
+    top: 12rem;
+    left: 32rem;
+    text-align: center;
+}
+
+.us {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.us img {
+    width: 32rem;
+    height: 23rem;
+}
+
+.cont-1 {
+    position: absolute;
+    top: 13rem;
+    left: 1.5rem;
+    text-align: center;
+}
+
+.cont-1 .roll {
+    font-size: 25px;
+}
+
+.cont-1 h4 {
+    color: red;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.cont-1 h1 {
+    font-weight: 200;
+}
+
+.cont-1 p {
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+/*  */
+.cont-2 {
+    position: absolute;
+    top: 13rem;
+    left: 31.5rem;
+    text-align: center;
+}
+
+.cont-2 .roll {
+    font-size: 25px;
+}
+
+.cont-2 h4 {
+    color: red;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.cont-2 h1 {
+    font-weight: 200;
+}
+
+.cont-2 p {
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+/*  */
+.cont-3 {
+    position: absolute;
+    top: 13rem;
+    left: 62rem;
+    text-align: center;
+}
+
+.cont-3 .roll {
+    font-size: 25px;
+}
+
+.cont-3 h4 {
+    color: red;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.cont-3 h1 {
+    font-weight: 200;
+}
+
+.cont-3 p {
+    margin-top: 2rem;
+    font-size: 10px
+}
+
+/*  */
+.her {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.her img {
+    width: 32rem;
+    height: 23rem;
+}
+
+/*  */
+.cont-4 {
+    position: absolute;
+    top: 55rem;
+    left: 1.5rem;
+    text-align: center;
+}
+
+.cont-4 .roll {
+    font-size: 25px;
+}
+
+.cont-4 h4 {
+    color: red;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.cont-4 h1 {
+    font-weight: 200;
+}
+
+.cont-4 p {
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+/*  */
+.cont-5 {
+    position: absolute;
+    top: 55rem;
+    left: 31.5rem;
+    text-align: center;
+}
+
+.cont-5 .roll {
+    font-size: 25px;
+}
+
+.cont-5 h4 {
+    color: red;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.cont-5 h1 {
+    font-weight: 200;
+}
+
+.cont-5 p {
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+/*  */
+.cont-6 {
+    position: absolute;
+    top: 55rem;
+    left: 62rem;
+    text-align: center;
+}
+
+.cont-6 .roll {
+    font-size: 25px;
+}
+
+.cont-6 h4 {
+    color: red;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.cont-6 h1 {
+    font-weight: 2006
+}
+
+.cont-6 p {
+    margin-top: 2rem;
+    font-size: 10px
+}
+
+/*  */
+
+.hey {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.hey img {
+    width: 32rem;
+    height: 23rem;
+}
+
+/*  */
+.cont-7 {
+    position: absolute;
+    top: 98rem;
+    left: 1.5rem;
+    text-align: center;
+}
+
+.cont-7 .roll {
+    font-size: 25px;
+}
+
+.cont-7 h4 {
+    color: red;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.cont-7 h1 {
+    font-weight: 200;
+}
+
+.cont-7 p {
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+/*  */
+.cont-8 {
+    position: absolute;
+    top: 98rem;
+    left: 31.5rem;
+    text-align: center;
+}
+
+.cont-8 .roll {
+    font-size: 25px;
+}
+
+.cont-8 h4 {
+    color: red;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.cont-8 h1 {
+    font-weight: 200;
+}
+
+.cont-8 p {
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+/*  */
+.cont-9 {
+    position: absolute;
+    top: 98rem;
+    left: 62rem;
+    text-align: center;
+}
+
+.cont-9 .roll {
+    font-size: 25px;
+}
+
+.cont-9 h4 {
+    color: red;
+    font-weight: 150;
+    letter-spacing: 5px;
+}
+
+.cont-9 h1 {
+    font-weight: 200;
+}
+
+.cont-9 p {
+    margin-top: 2rem;
+    font-size: 10px;
+}
+
+/*  */
+.small {
+    background-color: #0f0f0f;
+    width: 98vw;
+    height: 50%;
+    margin: 8px;
+}
+
+.top img {
+    width: 45rem;
+}
+
+.text {
+    margin-top: 5rem;
+}
+
+.head {
+    /* border: 1px solid red; */
+    margin-left: 2rem;
+}
+
+.got {
+    margin-top: 2rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.got i {
+    background-color: white;
+    color: green;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.got:hover {
+    background-color: transparent;
+    border: 1px solid #28a745;
 }
