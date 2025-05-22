@@ -254,7 +254,7 @@ span {
 
 .contact {
     position: relative;
-    
+
 }
 
 .snp-left-one-side img {
@@ -553,12 +553,13 @@ span {
 .small {
     background-color: #0f0f0f;
     width: 98vw;
-    height: 50%;
-    margin: 8px;
+    height: 80%;
 }
 
 .top img {
     width: 45rem;
+    padding-bottom: 2rem;
+
 }
 
 .text {
@@ -568,6 +569,12 @@ span {
 .head {
     /* border: 1px solid red; */
     margin-left: 2rem;
+
+}
+
+.heading {
+    padding-top: 2rem;
+    margin-top: 5rem;
 }
 
 .got {
@@ -594,3 +601,86 @@ span {
     background-color: transparent;
     border: 1px solid #28a745;
 }
+
+.spen {
+    width: 98vw;
+    height: 100%;
+    /* background-color: #a7a7a7; */
+}
+
+.colour {
+    justify-content: center;
+    align-items: center;
+}
+
+.location-card-box-h {
+    background-color: #fff;
+    color: #000;
+    width: 30%;
+    height: 13rem;
+    margin: 10px;
+    text-align: center;
+    margin-top: 2.5rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.headings {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.feed img,
+video {
+    margin: 10px;
+    width: 18rem;
+    height: 18rem;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    background-color: #0f0f0f;
+    margin-top: 3rem;
+}
+.snp-right-side-two{
+    position: absolute;
+    top: 15rem;
+    /* background-color: #000; */
+}
+
+.one {
+    position: absolute;
+    left: 10rem;
+    top: 7rem;
+    /* border: 1px solid red; */
+    width: 25rem;
+}
+
+.web-logo {
+    margin-bottom: 1.5rem;
+}
+
+.one p {
+    color: white;
+    font-size: 15px;
+}
+.info-usefull-links{
+    position: absolute;
+    left: -2.3rem;
+}
+.info-usefull-links a {
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.info-usefull-links a:hover{
+    color: white;
+}
+
+/* Footer */
