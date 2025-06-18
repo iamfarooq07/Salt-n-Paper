@@ -648,7 +648,8 @@ video {
     background-color: #0f0f0f;
     margin-top: 3rem;
 }
-.snp-right-side-two{
+
+.snp-right-side-two {
     position: absolute;
     top: 15rem;
     /* background-color: #000; */
@@ -670,16 +671,51 @@ video {
     color: white;
     font-size: 15px;
 }
-.info-usefull-links{
+
+.info-usefull-links {
     position: absolute;
     left: -2.3rem;
 }
+
 .info-usefull-links a {
     margin: 5px;
     color: white;
     text-decoration: none;
 }
-.info-usefull-links a:hover{
+
+.info-usefull-links a:hover {
+    color: white;
+}
+
+
+.two {
+    position: relative;
+    /* border: 1px solid red; */
+    color: white;
+}
+
+.to {
+    position: absolute;
+    left: 39.5rem;
+    top: 6rem;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.links {
+    position: absolute;
+    left: 38rem;
+    top: 9rem;
+}
+
+.links li {
+    list-style: none;
+    margin: 18px 0;
+}
+
+.links li a {
+    text-decoration: none;
     color: white;
 }
 
